@@ -1,11 +1,27 @@
 [stanleyyu.io](https://stanleyyu.io)
 ====================================
 
-[stanleyyu.io](https://stanleyyu.io) is my personal website for projects, blogging, and interests.
+[stanleyyu.io](https://stanleyyu.io) is my personal website for projects, updates, interests, and travel.
+
+## Tools
+- Used [SCSS][sass], a CSS extension language, to organize CSS files using features like variables, nesting, and mixins.
+- Used [Gulp][gulp], a build system for automating the development workflow.
+- Languages: HTML, CSS, Javascript
+
+## Setup
 
 ## Structure
 
 ```
+|-- _scss/                    # Pre-compilation stylesheets
+|-- css/                      # *GENERATED* Stylesheets
+|-- node_modules/             # *GENERATED* JS modules installed by npm
+|-- gulpfile.js               # Controls Gulp, used for development
 |-- index.html                # Home page
+|-- package.json              # Dependencies
+|-- LICENSE.md                # Project license
 |-- README.md                 # README (this file)
 ```
+
+[sass]: https://sass-lang.com/
+[gulp]: https://gulpjs.com/

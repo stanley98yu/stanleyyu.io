@@ -1,0 +1,23 @@
+{
+  "name": "stanleyyu.io",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Stanley Yu",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanley98yu/stanleyyu.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stanley98yu/stanleyyu.io/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5"
+  }
+}

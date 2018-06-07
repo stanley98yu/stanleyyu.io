@@ -1,0 +1,18 @@
+$fwbold: 700;
+$fwreg: 400;
+
+$sans: "Proxima Nova", sans-serif;
+$monospace: "Inconsolata", monospace;
+
+h1 {
+  font-family: $sans;
+  font-size: 2rem;
+  font-weight: $fwbold;
+  line-height: 0.5;
+}
+
+h2 {
+  font-family: $sans;
+  font-size: 1rem;
+  line-height: 0.5;
+}
