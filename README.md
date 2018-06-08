@@ -9,6 +9,7 @@
 - Languages: HTML, CSS, Javascript
 
 ## Setup
+- Run `gulp scss` to compile SCSS files. Stylesheets will be generated in the `css/` folder.
 
 ## Structure
 
@@ -16,7 +17,7 @@
 |-- _scss/                    # Pre-compilation stylesheets
 |-- css/                      # *GENERATED* Stylesheets
 |-- node_modules/             # *GENERATED* JS modules installed by npm
-|-- gulpfile.js               # Controls Gulp, used for development
+|-- Gulpfile.js               # Controls Gulp, used for development
 |-- index.html                # Home page
 |-- package.json              # Dependencies
 |-- LICENSE.md                # Project license

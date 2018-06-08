@@ -1,18 +1,33 @@
-$fwbold: 700;
-$fwreg: 400;
+$bold: 700;
+$reg: 400;
 
-$sans: "Proxima Nova", sans-serif;
-$monospace: "Inconsolata", monospace;
+$monospace: 'Inconsolata', monospace;
+$sans: 'Montserrat', Helvetica, Arial, sans-serif;
 
 h1 {
-  font-family: $sans;
+  font-family: $monospace;
   font-size: 2rem;
-  font-weight: $fwbold;
   line-height: 0.5;
 }
 
 h2 {
-  font-family: $sans;
+  font-family: $monospace;
+  font-size: 1.25rem;
+  font-weight: $reg
+}
+
+h3 {
+  font-family: $monospace;
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-family: $monospace;
   font-size: 1rem;
-  line-height: 0.5;
+  font-weight: $reg
+}
+
+h5 {
+  font-family: $monospace;
+  font-size: 1rem;
 }
