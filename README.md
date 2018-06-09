@@ -14,6 +14,7 @@
 ## Structure
 
 ```
+|-- _img/                     # Images
 |-- _scss/                    # Pre-compilation stylesheets
 |-- css/                      # *GENERATED* Stylesheets
 |-- node_modules/             # *GENERATED* JS modules installed by npm
