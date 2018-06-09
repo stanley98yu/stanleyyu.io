@@ -2,7 +2,6 @@
 node_modules/
 
 # Generated Files
-css/
 
 # Miscellaneous
 .DS_Store
