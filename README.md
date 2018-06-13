@@ -14,15 +14,15 @@
 ## Structure
 
 ```
-|-- _img/                     # Images
-|-- _scss/                    # Pre-compilation stylesheets
-|-- css/                      # *GENERATED* Stylesheets
-|-- node_modules/             # *GENERATED* JS modules installed by npm
-|-- Gulpfile.js               # Controls Gulp, used for development
-|-- index.html                # Home page
-|-- package.json              # Dependencies
-|-- LICENSE.md                # Project license
-|-- README.md                 # README (this file)
+├── _img/                     # Images
+├── _scss/                    # Pre-compilation stylesheets
+├── css/                      # *GENERATED* Stylesheets
+├── node_modules/             # *GENERATED* JS modules installed by npm
+├── Gulpfile.js               # Controls Gulp, used for development
+├── index.html                # Home page
+├── package.json              # Dependencies
+├── LICENSE.md                # Project license
+└── README.md                 # README (this file)
 ```
 
 [sass]: https://sass-lang.com/
