@@ -7,28 +7,31 @@ $sans: 'Montserrat', Helvetica, Arial, sans-serif;
 h1 {
   font-family: $sans;
   font-size: 4rem;
-  line-height: 0.25;
+  margin: 0;
 }
 
 h2 {
   font-family: $monospace;
   font-size: 1.25rem;
   font-weight: $reg;
+  margin: 0.4em 0 0.4em;
 }
 
 h3 {
   font-family: $monospace;
   font-size: 1.25rem;
-  line-height: 0.35;
+  margin: 0.5em 0;
 }
 
 h4 {
   font-family: $monospace;
   font-size: 1rem;
   font-weight: $reg;
+  margin: 0.25em 0;
 }
 
 h5 {
   font-family: $monospace;
   font-size: 1rem;
+  margin: 0;
 }

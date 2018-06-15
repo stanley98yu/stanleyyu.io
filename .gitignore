@@ -1,7 +1,5 @@
-# Javascript
-node_modules/
-
 # Generated Files
+_site/
 
 # Miscellaneous
 .DS_Store

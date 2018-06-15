@@ -1,36 +1,39 @@
 h1 {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 4rem;
-  line-height: 0.25; }
+  margin: 0; }
 
 h2 {
   font-family: "Inconsolata", monospace;
   font-size: 1.25rem;
-  font-weight: 400; }
+  font-weight: 400;
+  margin: 0.4em 0 0.4em; }
 
 h3 {
   font-family: "Inconsolata", monospace;
   font-size: 1.25rem;
-  line-height: 0.35; }
+  margin: 0.5em 0; }
 
 h4 {
   font-family: "Inconsolata", monospace;
   font-size: 1rem;
-  font-weight: 400; }
+  font-weight: 400;
+  margin: 0.25em 0; }
 
 h5 {
   font-family: "Inconsolata", monospace;
-  font-size: 1rem; }
+  font-size: 1rem;
+  margin: 0; }
 
 html, body {
-  background-image: linear-gradient(to bottom, #F9F9F9, #FFFCF3);
+  background-image: linear-gradient(to bottom, #FFFFFF, #FFFCF3);
   display: block;
   color: #212121;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   height: 100%;
-  margin: 0; }
+  margin: 0 4px; }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: #212121;
@@ -50,7 +53,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .links {
   width: 25%;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-top: 0.8em; }
   .links a {
     color: #212121;
     text-decoration: none;
@@ -58,3 +62,5 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     .links a:hover {
       color: #134DB6;
       text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
