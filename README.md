@@ -16,8 +16,8 @@
 ```
 ├── _img/                     # Images
 ├── _scss/                    # Pre-compilation stylesheets
-├── _site/                    # *GENERATED* Site directory built by Jekyll
-├── css/                      # *GENERATED* Stylesheets
+├── css/                      # Stylesheets
+├── js/                       # Javascript files
 ├── index.html                # Home page
 ├── LICENSE.md                # Project license
 └── README.md                 # README (this file)

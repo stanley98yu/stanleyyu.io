@@ -9,26 +9,80 @@ html, body {
   margin: 0 4px;
 }
 
+.container {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
 h1, h2, h3, h4, h5, h6 {
   a {
+    border-bottom: 1.75px solid $black;
     color: $black;
     text-decoration: none;
     transition: 0.3s ease all;
 
     &:hover {
+      border-bottom: 1.75px solid $dark-blue;
       color: $dark-blue;
       text-decoration: none;
     }
   }
 }
 
+h3:hover {
+  cursor: pointer;
+  color: $dark-blue;
+  text-decoration: none;
+  transition: 0.3s ease all;
+}
+
 .header {
   text-align: center;
 }
 
-.container {
-  max-width: 650px;
-  margin: 0 auto;
+.updates {
+  ul {
+    margin: 0.5em 0;
+    padding: 0;
+  }
+
+  li {
+    list-style-type: none;
+    margin: 0.75em 0;
+    display: flex;
+    justify-content: flex-start;
+
+    &:before {
+      content: '\00b7';
+      display: inline-block;
+      width: 2em;
+      border-radius: 100%;
+      margin: 0;
+    }
+
+    .left {
+      font-weight: $bold;
+      color: $black;
+      float: left;
+      width: 100px;
+    }
+
+    .desc {
+      margin-left: 25px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+.cntnt {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+  }
+
+.active .cntnt {
+  max-height: 10em;
 }
 
 .links {
