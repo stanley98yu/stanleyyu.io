@@ -1,6 +1,6 @@
-# Generated Files
-_site/
+# Javascript
+node_modules
 
 # Miscellaneous
 .DS_Store
-.sass-cache/
+.sass-cache

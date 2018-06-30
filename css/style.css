@@ -91,12 +91,12 @@ h3:hover {
     display: flex;
     flex-direction: column; }
 
-.cntnt {
+.content {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.5s ease-out; }
 
-.active .cntnt {
+.active .content {
   max-height: 10em; }
 
 .links {
