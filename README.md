@@ -12,21 +12,18 @@
 
 ```bash
 npm install                            # **Only once** Install dependencies.
-sass _scss/style.scss css/style.css    # Compile stylesheets.
+make                                   # Build site.
 ```
 
 ## Structure
 
 ```
-├── site/                              # Site build
-│   ├── css/                           # Stylesheets
-│   ├── js/                            # Javascript files
-│   └── index.html                     # Home page
 ├── src/                               # Source code
 │   ├── img/                           # Static images
 │   ├── scss/                          # Pre-compilation stylesheets
 │   ├── partials/                      # Handlebars HTML partials called by templates
 │   └── templates/                     # Handlebars HTML templates
+├── site/                              # **GENERATED** Site build created by Make
 ├── package.json                       # Dependencies
 ├── LICENSE.md                         # Project license
 └── README.md                          # README (this file)
