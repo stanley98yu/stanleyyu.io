@@ -1,0 +1,20 @@
+baseURL: https://stanleyyu.io
+languageCode: en-us
+title: stanleyyu.io
+
+params:
+  AuthorName: Stanley Yu
+  GitHubUser: stanley98yu
+
+defaultContentLanguage: en
+metaDataFormat: yaml
+publishDir: site
+
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+  - RSS
+  - page
+  - robotsTXT
+  - 404
+  - sitemap

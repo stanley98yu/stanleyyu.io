@@ -4,35 +4,39 @@
 [stanleyyu.io](https://stanleyyu.io) is my personal website for projects, updates, and interests.
 
 ## Tools
-- Used [Handlebars.js][handlebars] to manage content and templates.
+- Used [Hugo][hugo] for managing site content and templating.
 - Used [SCSS][sass], a CSS extension language, to organize CSS files using features like variables, nesting, and mixins.
-- Used [GNU Make][make] to generate distribution files.
+- Used [npm][node] and [GNU Make][make] as the package manager and build tool.
 - Languages: HTML, CSS, Javascript
 
 ## Development
 
-Install [npm][node]. Then:
+Install [npm][node], [Hugo][hugo], and [SCSS][sass]. Then:
 
 ```bash
-npm install                            # **Only once** Install dependencies.
-make build                             # Build site.
+
 ```
 
 ## Structure
 
 ```
-├─┬ src/                               # Source code
-│ ├── img/                             # Static images
-│ ├── scss/                            # Pre-compilation stylesheets
-│ ├── partials/                        # Handlebars HTML partials called by templates
-│ └── templates/                       # Handlebars HTML templates
-├── dist/                              # Site distribution built by Make
-├── package.json                       # Dependencies
+├── archetypes/                        # Hugo archetypes for content pages
+├── content/                           # Hugo site content
+├── data/                              # Hugo additional data for generating the site
+├── layouts/                           # Hugo layouts for specifying site rendering
+├─┬ static/                            # Static resources
+│ ├── img/                             # Images
+│ ├── js/                              # Javascript
+│ └── css/                             # CSS compiled from SCSS
+├── scss/                              # Pre-compilation stylesheets
+├── site/                              # **GENERATED** Hugo builds the site here
+├── config.yaml                        # Metadata associated with the site 
+├── Makefile                           # Controls Make
 ├── LICENSE.md                         # Project license
 └── README.md                          # README (this file)
 ```
 
-[handlebars]: http://handlebarsjs.com/
+[hugo]: https://gohugo.io/
 [make]: https://www.gnu.org/software/make/
 [node]: https://nodejs.org/en/download/
 [sass]: https://sass-lang.com/

@@ -1,5 +1,6 @@
 # Builds
-# dist/
+site/
+resources/
 
 # Javascript
 node_modules
