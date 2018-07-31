@@ -11,19 +11,20 @@
 
 ## Development
 
-Install [npm][node], [Hugo][hugo], and [SCSS][sass]. Then:
+Install [npm][node], [Hugo][hugo], and [SCSS][sass]. Then, run:
 
 ```bash
-
+sass scss/style.scss static/css/style.css   # Compile stylesheets.
+hugo -v                                     # Build site.
 ```
 
 ## Structure
 
 ```
-├── archetypes/                        # Hugo archetypes for content pages
+├── archetypes/                        # Hugo archetypes for content Markdown files
 ├── content/                           # Hugo site content
 ├── data/                              # Hugo additional data for generating the site
-├── layouts/                           # Hugo layouts for specifying site rendering
+├── layouts/                           # Hugo layouts for rendering the site
 ├─┬ static/                            # Static resources
 │ ├── img/                             # Images
 │ ├── js/                              # Javascript

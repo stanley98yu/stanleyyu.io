@@ -3,8 +3,8 @@ languageCode: en-us
 title: stanleyyu.io
 
 params:
-  AuthorName: Stanley Yu
-  GitHubUser: stanley98yu
+  author: Stanley Yu
+  github: stanley98yu
 
 defaultContentLanguage: en
 metaDataFormat: yaml
