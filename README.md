@@ -1,7 +1,7 @@
 [stanleyyu.io](https://stanleyyu.io)
 ====================================
 
-[stanleyyu.io](https://stanleyyu.io) is my personal website for projects, updates, and interests.
+[stanleyyu.io](https://stanleyyu.io) is my personal website for projects, updates, and talks.
 
 ## Tools
 - Used [Hugo][hugo] for managing site content and templating.

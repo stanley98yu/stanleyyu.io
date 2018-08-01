@@ -60,23 +60,17 @@ html, body {
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-  border-bottom: 1.75px solid #212121;
+  border-bottom: 2px solid #212121;
   color: #212121;
   text-decoration: none;
   transition: 0.3s ease;
 }
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
-  border-bottom: 1.75px solid #134DB6;
+  border-bottom: 2px solid #134DB6;
   color: #134DB6;
   text-decoration: none;
 }
 
-/*h3:hover {
-  cursor: pointer;
-  color: $dark-blue;
-  text-decoration: none;
-  transition: 0.3s ease all;
-}*/
 .header {
   text-align: center;
 }
@@ -92,37 +86,22 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
   margin: 0.75em 0;
 }
 .updates li::before {
+  border-radius: 100%;
   content: "·";
   display: inline-block;
-  width: 2em;
-  border-radius: 100%;
   margin: 0;
+  width: 2em;
 }
 .updates li .left {
-  font-weight: 700;
   color: #212121;
   float: left;
+  font-weight: 700;
   width: 100px;
 }
 .updates li .desc {
-  margin-left: 25px;
   display: flex;
   flex-direction: column;
-}
-
-.path {
-  /*h3 a {
-    border-bottom: 1.5px solid transparent;
-    color: $black;
-    text-decoration: none;
-    transition: 0.3s ease all;
-
-    &:hover {
-      border-bottom: 1.5px solid $dark-blue;
-      color: $dark-blue;
-      text-decoration: none;
-    }
-  }*/
+  margin-left: 25px;
 }
 
 .content {
@@ -134,16 +113,25 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
   max-height: 10em;
 }
 
+.path h3 a, .updates h3 a {
+  border-bottom: 2px solid transparent;
+  transition: 0.3s ease border-color;
+}
+.path h3 a:hover, .updates h3 a:hover {
+  border-color: #134DB6;
+  color: #134DB6;
+}
+
 .links {
-  width: 25%;
   display: flex;
   justify-content: space-between;
   margin-top: 0.8em;
+  width: 25%;
 }
 .links a {
   color: #212121;
   text-decoration: none;
-  transition: 0.3s ease all;
+  transition: 0.3s ease color;
 }
 .links a:hover {
   color: #134DB6;
