@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>{{ .Title }}</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="{{ .Description }}">
-</head>
-<body>
-    <main>
-        <article>
-            <h1>{{ .Title }}</h1>
-            {{ .Content }}
-        </article>
-    </main>
-</body>
-<html>
+{{ define "content" }}
+  <h3>Single Page</h3>
+  <!-- Code that all your templates share, like a header -->
+  {{ block "main" . }}
+  <!-- The part of the page that begins to differ between templates -->
+  {{ end }}
+{{ end }}

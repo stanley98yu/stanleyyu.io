@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>{{ .Params.Author }}</title>
+  <title>{{ .Site.Params.title }}</title>
   <meta charset="utf-8">
-  <meta name="author" content={{ .Params.Author }}>
-  <meta name="description" content={{ .Params.Author }}>
+  <meta name="author" content="{{ .Site.Params.author }}">
+  <meta name="description" content="{{ .Site.Params.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <!-- Icons -->
@@ -12,11 +12,17 @@
   <link rel="icon" type="image/png" href="/_img/favicon-1024.png">
 
   <link href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
   <script type='text/javascript' src='js/content.js'></script>
 </head>
 <body>
+  <div class="container">
+    <div class="header">
+      <h1>Stanley Yu</h1>
+      <h2>Research Assistant at <a href="https://tech.cornell.edu/">Cornell Tech</a>. CS at <a href="https://www.columbia.edu/">Columbia</a>.</h2>
+    </div>
   {{ block "content" . }}
   {{ end }}
+  </div>
 </body>
 </html>

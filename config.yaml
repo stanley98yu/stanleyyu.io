@@ -1,15 +1,20 @@
-baseURL: https://stanleyyu.io
+baseURL: https://stanleyyu.io/
 languageCode: en-us
-title: stanleyyu.io
 
 params:
-  author: Stanley Yu
-  github: stanley98yu
+  title: "Stanley Yu"
+  description: "Research Assistant at Cornell Tech. CS at Columbia."
+  author: "Stanley Yu"
+  github_username: "stanley98yu"
+  twitter_handle: "@stanley98yu"
+  domain: "stanleyyu.io"
+  root: "https://stanleyyu.io"
 
 defaultContentLanguage: en
 metaDataFormat: yaml
 publishDir: site
 
+verbose: true
 disableKinds:
   - taxonomy
   - taxonomyTerm

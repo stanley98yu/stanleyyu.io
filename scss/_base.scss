@@ -1,17 +1,19 @@
 html, body {
   background-image: linear-gradient(to bottom, $white, $light-yellow);
-  display: block;
   color: $black;
-  font-family: $sans;
-  font-size: 16px;
-  font-weight: $reg;
+  display: block;
+  font: {
+    family: $sans;
+    size: 16px;
+    weight: $reg;
+  }
   height: 100%;
   margin: 0 4px;
 }
 
 .container {
-  max-width: 650px;
   margin: 0 auto;
+  max-width: 650px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 1.75px solid $black;
     color: $black;
     text-decoration: none;
-    transition: 0.3s ease all;
+    transition: .3s ease;
 
     &:hover {
       border-bottom: 1.75px solid $dark-blue;
@@ -29,12 +31,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-h3:hover {
+/*h3:hover {
   cursor: pointer;
   color: $dark-blue;
   text-decoration: none;
   transition: 0.3s ease all;
-}
+}*/
 
 .header {
   text-align: center;
@@ -42,17 +44,17 @@ h3:hover {
 
 .updates {
   ul {
-    margin: 0.5em 0;
+    margin: .5em 0;
     padding: 0;
   }
 
   li {
-    list-style-type: none;
-    margin: 0.75em 0;
     display: flex;
     justify-content: flex-start;
+    list-style-type: none;
+    margin: .75em 0;
 
-    &:before {
+    &::before {
       content: '\00b7';
       display: inline-block;
       width: 2em;
@@ -75,14 +77,29 @@ h3:hover {
   }
 }
 
+.path {
+  /*h3 a {
+    border-bottom: 1.5px solid transparent;
+    color: $black;
+    text-decoration: none;
+    transition: 0.3s ease all;
+
+    &:hover {
+      border-bottom: 1.5px solid $dark-blue;
+      color: $dark-blue;
+      text-decoration: none;
+    }
+  }*/
+}
+
 .content {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.5s ease-out;
-  }
 
-.active .content {
-  max-height: 10em;
+  .active & {
+    max-height: 10em;
+  }
 }
 
 .links {

@@ -6,6 +6,7 @@
 ## Tools
 - Used [Hugo][hugo] for managing site content and templating.
 - Used [SCSS][sass], a CSS extension language, to organize CSS files using features like variables, nesting, and mixins.
+- Used [Sass Lint][sass-lint] for linting SCSS files.
 - Used [npm][node] and [GNU Make][make] as the package manager and build tool.
 - Languages: HTML, CSS, Javascript
 
@@ -14,8 +15,10 @@
 Install [npm][node], [Hugo][hugo], and [SCSS][sass]. Then, run:
 
 ```bash
+npm install                                 # **Only once.**
 sass scss/style.scss static/css/style.css   # Compile stylesheets.
-hugo -v                                     # Build site.
+sass-lint -c sass-lint.yml -v -q            # (Optional) Lint SCSS files.
+hugo                                        # Build site.
 ```
 
 ## Structure
@@ -31,7 +34,8 @@ hugo -v                                     # Build site.
 │ └── css/                             # CSS compiled from SCSS
 ├── scss/                              # Pre-compilation stylesheets
 ├── site/                              # **GENERATED** Hugo builds the site here
-├── config.yaml                        # Metadata associated with the site 
+├── config.yaml                        # Metadata associated with the site
+├── package.json                       # Dependencies
 ├── Makefile                           # Controls Make
 ├── LICENSE.md                         # Project license
 └── README.md                          # README (this file)
@@ -41,3 +45,4 @@ hugo -v                                     # Build site.
 [make]: https://www.gnu.org/software/make/
 [node]: https://nodejs.org/en/download/
 [sass]: https://sass-lang.com/
+[sass-lint]: https://github.com/sasstools/sass-lint

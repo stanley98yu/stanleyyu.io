@@ -1,0 +1,15 @@
+{
+  "name": "stanleyyu.io",
+  "version": "0.0.1",
+  "description": "",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {
+    "sass-lint": "^1.12.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanley98yu/stanleyyu.io.git"
+  }
+}
