@@ -1,14 +1,17 @@
 @charset "UTF-8";
-.work {
+.work em, .work ::before {
   color: #EB4888;
+  font-style: normal;
 }
 
-.life {
+.life em, .life ::before {
   color: #10A2F5;
+  font-style: normal;
 }
 
-.fun {
+.fun em, .fun ::before {
   color: #24D05A;
+  font-style: normal;
 }
 
 h1 {
@@ -20,7 +23,7 @@ h1 {
 h2 {
   font-family: "Inconsolata", monospace;
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 550;
   margin: 0.4em 0;
 }
 
@@ -33,7 +36,7 @@ h3 {
 h4, li {
   font-family: "Inconsolata", monospace;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 550;
   margin: 0.25em 0;
 }
 
@@ -49,9 +52,13 @@ html, body {
   display: block;
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 550;
   height: 100%;
   margin: 0 4px;
+}
+
+.header {
+  text-align: center;
 }
 
 .container {
@@ -62,6 +69,7 @@ html, body {
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   border-bottom: 2px solid #212121;
   color: #212121;
+  cursor: pointer;
   text-decoration: none;
   transition: 0.3s ease;
 }
@@ -71,55 +79,50 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
   text-decoration: none;
 }
 
-.header {
-  text-align: center;
-}
-
-.updates ul {
-  margin: 0.5em 0;
-  padding: 0;
-}
-.updates li {
-  display: flex;
-  justify-content: flex-start;
-  list-style-type: none;
-  margin: 0.75em 0;
-}
-.updates li::before {
-  border-radius: 100%;
-  content: "·";
-  display: inline-block;
-  margin: 0;
-  width: 2em;
-}
-.updates li .left {
-  color: #212121;
-  float: left;
-  font-weight: 700;
-  width: 100px;
-}
-.updates li .desc {
-  display: flex;
-  flex-direction: column;
-  margin-left: 25px;
-}
-
-.content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s ease-out;
-}
-.active .content {
-  max-height: 10em;
-}
-
-.path h3 a, .updates h3 a {
+h3 a {
   border-bottom: 2px solid transparent;
   transition: 0.3s ease border-color;
 }
-.path h3 a:hover, .updates h3 a:hover {
+h3 a:hover {
   border-color: #134DB6;
   color: #134DB6;
+}
+
+.about ul {
+  list-style-type: none;
+  margin: 0.5em 0;
+  padding: 0;
+}
+.about li {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0.75em 0;
+}
+.about li .left {
+  color: #212121;
+  min-width: 150px;
+}
+.about li .left::before {
+  content: "∇";
+  display: inline-block;
+  font-size: 0.8em;
+  height: 1em;
+  margin-right: 2em;
+}
+.about li .desc {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  max-width: 100%;
+}
+
+.highlights {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+}
+.active .highlights {
+  max-height: 10em;
 }
 
 .links {

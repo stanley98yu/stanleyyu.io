@@ -11,6 +11,10 @@ html, body {
   margin: 0 4px;
 }
 
+.header {
+  text-align: center;
+}
+
 .container {
   margin: 0 auto;
   max-width: 650px;
@@ -20,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
   a {
     border-bottom: 2px solid $black;
     color: $black;
+    cursor: pointer;
     text-decoration: none;
     transition: .3s ease;
 
@@ -31,12 +36,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.header {
-  text-align: center;
+h3 a {
+  border-bottom: 2px solid transparent;
+  transition: .3s ease border-color;
+
+  &:hover {
+    border-color: $dark-blue;
+    color: $dark-blue;
+  }
 }
 
-.updates {
+.about {
   ul {
+    list-style-type: none;
     margin: .5em 0;
     padding: 0;
   }
@@ -44,51 +56,37 @@ h1, h2, h3, h4, h5, h6 {
   li {
     display: flex;
     justify-content: flex-start;
-    list-style-type: none;
     margin: .75em 0;
-
-    &::before {
-      border-radius: 100%;
-      content: '\00b7';
-      display: inline-block;
-      margin: 0;
-      width: 2em;
-    }
 
     .left {
       color: $black;
-      float: left;
-      font-weight: $bold;
-      width: 100px;
+      min-width: 150px;
+
+      &::before {
+        content: '\2207';
+        display: inline-block;
+        font-size: .8em;
+        height: 1em;
+        margin-right: 2em;
+      }
     }
 
     .desc {
       display: flex;
       flex-direction: column;
       margin-left: 25px;
+      max-width: 100%;
     }
   }
 }
 
-.content {
+.highlights {
   max-height: 0;
   overflow: hidden;
-  transition: max-height .5s ease-out;
+  transition: max-height .4s ease-out;
 
   .active & {
     max-height: 10em;
-  }
-}
-
-.path, .updates {
-  h3 a {
-    border-bottom: 2px solid transparent;
-    transition: .3s ease border-color;
-
-    &:hover {
-      border-color: $dark-blue;
-     color: $dark-blue;
-    }
   }
 }
 

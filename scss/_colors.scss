@@ -10,13 +10,22 @@ $dark-blue: #134DB6;
 $light-yellow: #FFFCF3;
 
 .work {
-  color: $red;
+  em, ::before {
+    color: $red;
+    font-style: normal;
+  }
 }
 
 .life {
-  color: $blue;
+  em, ::before {
+    color: $blue;
+    font-style: normal;
+  }
 }
 
 .fun {
-  color: $green;
+  em, ::before {
+    color: $green;
+    font-style: normal;
+  }
 }

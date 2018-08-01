@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "type": "fun",
+      "date": "July 2018",
+      "act": "Attended ",
+      "em": "Google Next 2018"
+    },
+    {
+      "type": "work",
+      "date": "May 2018",
+      "act": "Started research internship at ",
+      "em": "Cornell Tech"
+    },
+    {
+      "type": "fun",
+      "date": "March 2018",
+      "act": "Traveled to ",
+      "em": "Tel Aviv, Israel"
+    },
+    {
+      "type": "life",
+      "date": "August 2017",
+      "act": "Enrolled at ",
+      "em": "Columbia"
+    }
+  ]
+}

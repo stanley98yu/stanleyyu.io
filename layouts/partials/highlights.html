@@ -1,0 +1,8 @@
+<ul class="highlights">
+  {{ range .events }}
+  <li class="{{ .type }}">
+    <div class="left">{{ .date }}</div>
+    <div class="desc"><div>{{ .act }}<em>{{ .em }}</em></div></div>
+  </li>
+  {{ end }}
+</ul>
