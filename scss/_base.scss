@@ -13,6 +13,13 @@ html, body {
 
 .header {
   text-align: center;
+
+  h1 a {
+    border-bottom: 2px solid transparent;
+    color: $black;
+    cursor: pointer;
+    text-decoration: none;
+  }
 }
 
 .container {
@@ -20,7 +27,12 @@ html, body {
   max-width: 650px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+p {
+  line-height: 1.2em;
+  margin: 0;
+}
+
+h2, h3, h4, h5, h6 {
   a {
     border-bottom: 2px solid $black;
     color: $black;
@@ -38,18 +50,17 @@ h1, h2, h3, h4, h5, h6 {
 
 h3 a {
   border-bottom: 2px solid transparent;
-  transition: .3s ease border-color;
+  transition: .3s ease;
 
   &:hover {
     border-color: $dark-blue;
-    color: $dark-blue;
   }
 }
 
 .about {
   ul {
     list-style-type: none;
-    margin: .5em 0;
+    margin: 0;
     padding: 0;
   }
 

@@ -60,20 +60,31 @@ html, body {
 .header {
   text-align: center;
 }
+.header h1 a {
+  border-bottom: 2px solid transparent;
+  color: #212121;
+  cursor: pointer;
+  text-decoration: none;
+}
 
 .container {
   margin: 0 auto;
   max-width: 650px;
 }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+p {
+  margin: 0;
+  line-height: 1.2em;
+}
+
+h2 a, h3 a, h4 a, h5 a, h6 a {
   border-bottom: 2px solid #212121;
   color: #212121;
   cursor: pointer;
   text-decoration: none;
   transition: 0.3s ease;
 }
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
   border-bottom: 2px solid #134DB6;
   color: #134DB6;
   text-decoration: none;
@@ -81,16 +92,15 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 
 h3 a {
   border-bottom: 2px solid transparent;
-  transition: 0.3s ease border-color;
+  transition: 0.3s ease;
 }
 h3 a:hover {
   border-color: #134DB6;
-  color: #134DB6;
 }
 
 .about ul {
   list-style-type: none;
-  margin: 0.5em 0;
+  margin: 0;
   padding: 0;
 }
 .about li {

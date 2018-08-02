@@ -8,8 +8,8 @@
     },
     {
       "type": "work",
-      "date": "May 2018",
-      "act": "Started research internship at ",
+      "date": "Summer 2018",
+      "act": "Worked on NLP research at ",
       "em": "Cornell Tech"
     },
     {
@@ -23,6 +23,12 @@
       "date": "August 2017",
       "act": "Enrolled at ",
       "em": "Columbia"
+    },
+    {
+      "type": "work",
+      "date": "Summer 2016",
+      "act": "Participated in the ",
+      "em": "2016 Summer Science Program"
     }
   ]
 }

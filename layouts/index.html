@@ -1,7 +1,7 @@
 {{ define "content" }}
 <div class="collection about active">
   <h3 class="collap">/ <a>About</a></h3>
-  <h4>Hi, I'm Stanley. I study CS at Columbia and work as a research assistant at Cornell Tech! Here are some highlights of events over the past few years.</h4>
+  <h4>{{ .Content }}</h4>
   {{ range .Site.Data }}
     {{ partial "highlights.html" . }}
   {{ end }}
