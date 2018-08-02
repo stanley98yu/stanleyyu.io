@@ -24,7 +24,6 @@ hugo                                        # Build site.
 ## Structure
 
 ```
-├── archetypes/                        # Hugo archetypes for content Markdown files
 ├── content/                           # Hugo site content
 ├── data/                              # Hugo additional data for generating the site
 ├── layouts/                           # Hugo layouts for rendering the site
