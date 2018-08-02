@@ -18,8 +18,10 @@ Install [npm][node], [Hugo][hugo], and [SCSS][sass]. Then, run:
 npm install                                 # **Only once.**
 sass scss/style.scss static/css/style.css   # Compile stylesheets.
 sass-lint -c sass-lint.yml -v -q            # (Optional) Lint SCSS files.
-hugo                                        # Build site.
+hugo                                        # Build site. Run `hugo server` to serve on localhost:1313.
 ```
+
+Note: To deploy to the VPS, run `git push prod master`.
 
 ## Structure
 
