@@ -8,7 +8,11 @@ html, body {
     weight: $reg;
   }
   height: 100%;
-  margin: 0 4px;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
 .header {
@@ -23,8 +27,21 @@ html, body {
 }
 
 .container {
-  margin: 0 auto;
-  max-width: 650px;
+  margin: auto;
+  max-width: 700px;
+}
+
+.grid {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+
+  .box {
+    margin: 0;
+    padding: 1rem;
+    width: 50%;
+  }
 }
 
 p {
@@ -69,7 +86,7 @@ h3 a {
     justify-content: flex-start;
     margin: .75em 0;
 
-    .left {
+    .date {
       color: $black;
       min-width: 150px;
 

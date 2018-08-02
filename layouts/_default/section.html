@@ -1,7 +1,8 @@
 {{ define "content" }}
-  <h3>/ <a href="/projects">{{ title .Section }}</a></h3>
-  <!-- Code that all your templates share, like a header -->
-  {{ block "main" . }}
-  <!-- The part of the page that begins to differ between templates -->
-  {{ end }}
+  <h3>/ <a href="/{{ .Section }}">{{ title .Section }}</a></h3>
+  <div class="grid">
+    {{ range .Site.Data }}
+      {{ partial "box.html" . }}
+    {{ end }}
+  </div>
 {{ end }}

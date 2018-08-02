@@ -3,7 +3,8 @@ function collapsibleList(event) {
   var collap = document.getElementsByClassName('collap');
   Array.prototype.forEach.call(collap, function(el) {
   	el.addEventListener(event, function() {
-  		this.parentElement.classList.toggle('active');
+        var parent = this.parentElement;
+  		parent.parentElement.classList.toggle('active');
   	}, false);
   });
 }
