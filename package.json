@@ -6,10 +6,11 @@
   "scripts": {},
   "dependencies": {},
   "devDependencies": {
+    "del": "^3.0.0",
     "gulp": "^4.0.0",
     "gulp-cli": "^2.0.1",
     "gulp-sass": "^4.0.1",
-    "sass-lint": "^1.12.1"
+    "gulp-sass-lint": "^1.4.0"
   },
   "repository": {
     "type": "git",
