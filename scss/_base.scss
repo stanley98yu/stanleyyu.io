@@ -9,6 +9,7 @@ html, body {
   }
   height: 100%;
   margin: 0;
+  text-rendering: optimizeLegibility;
 }
 
 *, *::before, *::after {
@@ -28,7 +29,8 @@ html, body {
 
 .container {
   margin: auto;
-  max-width: 700px;
+  max-width: 750px;
+  width: 83.333%;
 }
 
 .grid {
@@ -44,12 +46,58 @@ html, body {
   }
 }
 
-p {
-  line-height: 1.2em;
-  margin: 0;
+.row {
+  width: 100%;
+
+  .vis {
+    float: left;
+    padding-right: 17px;
+    width: 50%;
+    height: auto;
+  }
+
+  .desc {
+    float: left;
+    padding-left: 17px;
+    width: 50%;
+  }
+
+  .learn {
+    float: left;
+    line-height: 2.7em;
+    padding-left: 17px;
+    padding-top: 17px;
+    width: 50%;
+  }
+
+  &:before, &:after {
+    display: table;
+  }
 }
 
-h2, h3, h4, h5, h6 {
+.click {
+  border-color: $dark-blue;
+  border-style: solid;
+  border-width: 2px;
+  color: $dark-blue;
+  letter-spacing: .05em;
+  padding: 12px 26px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .1s background-color linear, .1s color linear;
+
+  &:hover {
+    background-color: $dark-blue;
+    color: $white;
+    opacity: 1;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+h2, h3, h4, h5, h6, p {
   a {
     border-bottom: 2px solid $black;
     color: $black;
@@ -99,7 +147,7 @@ h3 a {
       }
     }
 
-    .desc {
+    .event {
       display: flex;
       flex-direction: column;
       margin-left: 25px;

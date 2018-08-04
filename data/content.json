@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "img": "skyglow.png",
+      "link": "https://github.com/NASA-DEVELOP/SET",
+      "title": "Skyglow Estimation Toolbox",
+      "cap": "Optimizing Earth Science Research",
+      "desc": "Measuring regional light pollution using NASA satellite data. Used to help monitor and protect national parks and wildlife."
+    },
+    {
+      "img": "ssp.png",
+      "link": "https://github.com/stanley98yu/ssp-2016",
+      "title": "Asteroid 2000 JQ66",
+      "cap": "Determining the Orbit of a Near-Earth Asteroid",
+      "desc": "Program written in Python to calculate and visualize the orbit of a near-Earth asteroid using original observations. Part of Summer Science Program (SSP) '16."
+    }
+  ],
+  "talks": [
+    {
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{{ range .Site.Data.content.projects }}
+  <div class="row">
+    <div class="vis">
+      <img src="/img/projects/{{ .img }}">
+    </div>
+    <div class="desc">
+      <h4>{{ .title }}: <span class="cap">{{ .cap }}</span></h4>
+      <p>{{ .desc }}</p>
+    </div>
+    <div class="learn">
+      <a class="click" href="{{ .link }}">Learn More ></a>
+    </div>
+    </div>
+  </div>
+{{ end }}

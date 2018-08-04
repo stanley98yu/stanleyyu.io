@@ -6,6 +6,9 @@
   "scripts": {},
   "dependencies": {},
   "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-sass": "^4.0.1",
     "sass-lint": "^1.12.1"
   },
   "repository": {
