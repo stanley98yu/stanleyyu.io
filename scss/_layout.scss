@@ -1,0 +1,61 @@
+.container {
+  margin: auto;
+  max-width: 750px;
+  width: 83.333%;
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  .links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.8em;
+    width: 25%;
+    a { border-bottom: 2px solid transparent; }
+  }
+}
+
+.grid {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+
+  .box {
+    margin: 0;
+    padding: 1rem;
+    width: 50%;
+  }
+}
+
+.row {
+  width: 100%;
+
+  .vis {
+    float: left;
+    height: auto;
+    padding-right: 17px;
+    width: 50%;
+  }
+
+  .desc {
+    float: left;
+    padding-left: 17px;
+    width: 50%;
+  }
+
+  .learn {
+    float: left;
+    line-height: 3;
+    padding-left: 17px;
+    padding-top: 17px;
+    width: 50%;
+  }
+
+  &::before, &::after {
+    display: table;
+  }
+}

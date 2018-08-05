@@ -8,7 +8,9 @@ html, body {
     weight: $reg;
   }
   height: 100%;
+  line-height: 1.25;
   margin: 0;
+  position: relative;
   text-rendering: optimizeLegibility;
 }
 
@@ -16,63 +18,29 @@ html, body {
   box-sizing: border-box;
 }
 
-.header {
-  text-align: center;
+a {
+  border-bottom: 2px solid $black;
+  color: $black;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s ease;
 
-  h1 a {
-    border-bottom: 2px solid transparent;
-    color: $black;
-    cursor: pointer;
+  &:hover {
+    border-bottom: 2px solid $dark-blue;
+    color: $dark-blue;
     text-decoration: none;
   }
+
+  h1 &, h1 &:hover {
+    border-bottom: 2px solid transparent;
+    color: $black;
+  }
+
+  h3 & { border-bottom: 2px solid transparent; }
 }
 
-.container {
-  margin: auto;
-  max-width: 750px;
-  width: 83.333%;
-}
-
-.grid {
-  align-items: stretch;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-
-  .box {
-    margin: 0;
-    padding: 1rem;
-    width: 50%;
-  }
-}
-
-.row {
-  width: 100%;
-
-  .vis {
-    float: left;
-    height: auto;
-    padding-right: 17px;
-    width: 50%;
-  }
-
-  .desc {
-    float: left;
-    padding-left: 17px;
-    width: 50%;
-  }
-
-  .learn {
-    float: left;
-    line-height: 2.7em;
-    padding-left: 17px;
-    padding-top: 17px;
-    width: 50%;
-  }
-
-  &::before, &::after {
-    display: table;
-  }
+img {
+  max-width: 100%;
 }
 
 .click {
@@ -84,41 +52,12 @@ html, body {
   padding: 12px 26px;
   text-decoration: none;
   text-transform: uppercase;
-  transition: .1s background-color linear, .1s color linear;
+  transition: 0.1s background-color linear, .1s color linear;
 
   &:hover {
     background-color: $dark-blue;
     color: $white;
     opacity: 1;
-  }
-}
-
-img {
-  max-width: 100%;
-}
-
-h2, h3, h4, h5, h6, p {
-  a {
-    border-bottom: 2px solid $black;
-    color: $black;
-    cursor: pointer;
-    text-decoration: none;
-    transition: .3s ease;
-
-    &:hover {
-      border-bottom: 2px solid $dark-blue;
-      color: $dark-blue;
-      text-decoration: none;
-    }
-  }
-}
-
-h3 a {
-  border-bottom: 2px solid transparent;
-  transition: .3s ease;
-
-  &:hover {
-    border-color: $dark-blue;
   }
 }
 
@@ -132,7 +71,7 @@ h3 a {
   li {
     display: flex;
     justify-content: flex-start;
-    margin: .75em 0;
+    margin: 0.75em 0;
 
     .date {
       color: $black;
@@ -141,7 +80,7 @@ h3 a {
       &::before {
         content: '\2207';
         display: inline-block;
-        font-size: .8em;
+        font-size: 0.8em;
         height: 1em;
         margin-right: 2em;
       }
@@ -163,23 +102,5 @@ h3 a {
 
   .active & {
     max-height: 10em;
-  }
-}
-
-.links {
-  display: flex;
-  justify-content: space-between;
-  margin-top: .8em;
-  width: 25%;
-
-  a {
-    color: $black;
-    text-decoration: none;
-    transition: .3s ease color;
-
-    &:hover {
-      color: $dark-blue;
-      text-decoration: none;
-    }
   }
 }

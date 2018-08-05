@@ -17,12 +17,10 @@
 </head>
 <body>
   <div class="container">
-    <div class="header">
-      <h1><a href="/">{{ .Site.Params.author }}</a></h1>
-      <h2>Software Developer & Researcher. Currently based in New York.</h2>
-    </div>
+    {{ partial "header.html" . }}
     {{ block "content" . }}
     {{ end }}
+    {{ partial "footer.html" . }}
   </div>
 </body>
 </html>
