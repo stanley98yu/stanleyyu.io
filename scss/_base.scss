@@ -3,13 +3,14 @@ html, body {
   color: $black;
   display: block;
   font: {
-    family: $sans;
+    family: $monospace;
     size: 16px;
     weight: $reg;
   }
   height: 100%;
   line-height: 1.25;
   margin: 0;
+  padding-top: 1.25rem;
   position: relative;
   text-rendering: optimizeLegibility;
 }
@@ -43,64 +44,42 @@ img {
   max-width: 100%;
 }
 
-.click {
-  border-color: $dark-blue;
-  border-style: solid;
-  border-width: 2px;
-  color: $dark-blue;
-  letter-spacing: .05em;
-  padding: 12px 26px;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.1s background-color linear, .1s color linear;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-  &:hover {
-    background-color: $dark-blue;
-    color: $white;
-    opacity: 1;
+.collection li {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0.75em 0;
+
+  .date {
+    min-width: 150px;
+
+    &::before {
+      content: '\2207';
+      display: inline-block;
+      font-size: 0.8em;
+      height: 1em;
+      margin-right: 2em;
+    }
+  }
+
+  .event {
+    flex-direction: column;
+    margin-left: 25px;
+    max-width: 100%;
   }
 }
 
-.about {
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  li {
-    display: flex;
-    justify-content: flex-start;
-    margin: 0.75em 0;
-
-    .date {
-      color: $black;
-      min-width: 150px;
-
-      &::before {
-        content: '\2207';
-        display: inline-block;
-        font-size: 0.8em;
-        height: 1em;
-        margin-right: 2em;
-      }
-    }
-
-    .event {
-      display: flex;
-      flex-direction: column;
-      margin-left: 25px;
-      max-width: 100%;
-    }
-  }
-}
-
-.highlights {
+.hdn-cntent {
+  display: none;
   max-height: 0;
-  overflow: hidden;
-  transition: max-height .4s ease-out;
 
   .active & {
-    max-height: 10em;
+    display: block;
+    max-height: 99em;
   }
 }

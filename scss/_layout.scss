@@ -18,19 +18,6 @@ footer {
   }
 }
 
-.grid {
-  align-items: stretch;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-
-  .box {
-    margin: 0;
-    padding: 1rem;
-    width: 50%;
-  }
-}
-
 .row {
   width: 100%;
 
@@ -49,7 +36,7 @@ footer {
 
   .learn {
     float: left;
-    line-height: 3;
+    line-height: 2;
     padding-left: 17px;
     padding-top: 17px;
     width: 50%;
@@ -57,5 +44,18 @@ footer {
 
   &::before, &::after {
     display: table;
+  }
+}
+
+.grid {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+
+  .box {
+    margin: 0;
+    padding: 1rem;
+    width: 50%;
   }
 }

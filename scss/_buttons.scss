@@ -1,0 +1,24 @@
+.btn {
+  border: {
+    color: $dark-blue;
+    style: solid;
+    width: 2px;
+  }
+  color: $dark-blue;
+  font: {
+    family: $sans;
+    size: 12px;
+    style: normal;
+  }
+  letter-spacing: .05em;
+  padding: 8px 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.1s background-color linear, .1s color linear;
+
+  &:hover {
+    background-color: $dark-blue;
+    color: $white;
+    opacity: 1;
+  }
+}

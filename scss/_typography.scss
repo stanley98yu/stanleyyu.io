@@ -6,46 +6,44 @@ $monospace: 'Inconsolata', monospace;
 $sans: 'Montserrat', Helvetica, Arial, sans-serif;
 
 h1 {
-  font-family: $sans;
-  font-size: 4rem;
-  margin: 0.4em 0 0;
+  font: {
+    family: $sans;
+    size: 4rem;
+    weight: $bold;
+  }
+  line-height: 1.25;
 }
 
 h2 {
-  font-family: $monospace;
-  font-size: 1.25rem;
-  font-weight: $reg;
-  margin: 0.4em 0;
+  font: {
+    family: $monospace;
+    size: 1.25rem;
+    weight: $reg;
+  }
+  margin-bottom: 0.25rem;
 }
 
 h3 {
-  font-family: $monospace;
-  font-size: 1.25rem;
-  margin: 0.5em 0;
+  font: {
+    family: $monospace;
+    size: 1.25rem;
+    weight: $bold;
+  }
+  margin: 0.25rem 0;
 }
 
 h4 {
-  font-family: $monospace;
-  font-size: 1.25rem;
+  font: {
+    family: $monospace;
+    size: 1.25rem;
+  }
   margin-bottom: 0.9rem;
-  margin-top: 0;
 }
 
 h5 {
-  font-family: $monospace;
-  font-size: 1rem;
-  margin: 0;
-}
-
-p, li {
-  font-family: $monospace;
-  margin: 0;
-}
-
-.click {
   font: {
-    family: $sans;
-    size: 12px;
-    style: normal;
+    family: $monospace;
+    size: 1rem;
+    weight: $light;
   }
 }
