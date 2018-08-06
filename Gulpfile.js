@@ -12,6 +12,7 @@ var sassLint = require('gulp-sass-lint');
 gulp.task('scss:lint', function (done) {
   return gulp.src('scss/**/*.s+(a|c)ss')
     .pipe(sassLint({
+      files: { ignore: 'scss/**/*.min.s+(a|c)ss' },
       configFile: './sass-lint.yml',
     }))
     .pipe(sassLint.format())
