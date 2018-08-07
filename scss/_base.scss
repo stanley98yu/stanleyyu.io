@@ -50,37 +50,3 @@ ul {
   margin: 0;
   padding: 0;
 }
-
-.collection li {
-  display: flex;
-  justify-content: flex-start;
-  margin: 0.75em 0;
-
-  .date {
-    min-width: 150px;
-
-    &::before {
-      content: '\2207';
-      display: inline-block;
-      font-size: 0.8em;
-      height: 1em;
-      margin-right: 2em;
-    }
-  }
-
-  .event {
-    flex-direction: column;
-    margin-left: 25px;
-    max-width: 100%;
-  }
-}
-
-.hdn-cntent {
-  display: none;
-  max-height: 0;
-
-  .active & {
-    display: block;
-    max-height: 99em;
-  }
-}

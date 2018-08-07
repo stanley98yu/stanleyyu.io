@@ -3,20 +3,42 @@
     {
       "img": "skyglow.png",
       "link": "https://github.com/NASA-DEVELOP/SET",
-      "title": "Skyglow Estimation Toolbox",
+      "title": "Skyglow Estimation Toolbox:",
       "cap": "Optimizing Earth Science Research",
       "desc": "Measuring regional light pollution using NASA satellite data. Used to help monitor and protect national parks and wildlife."
     },
     {
       "img": "ssp.png",
       "link": "https://github.com/stanley98yu/ssp-2016",
-      "title": "Asteroid 2000 JQ66",
+      "title": "Asteroid 2000 JQ66:",
       "cap": "Determining the Orbit of a Near-Earth Asteroid",
       "desc": "Program written in Python to calculate and visualize the orbit of a near-Earth asteroid using original observations. Part of Summer Science Program (SSP) '16."
     }
   ],
   "talks": [
     {
+      "img": "arcadia.jpg",
+      "link": "https://youtu.be/wIF3r1-p8wY?t=1h25m58s",
+      "media": "Watch on Youtube",
+      "title": "Arcadia High Graduation Speech",
+      "cap": "Lessons from Outside the Classroom",
+      "desc": "Given at the 2017 Arcadia High School Graduation Ceremony at Santa Anita Park. Time flies."
+    },
+    {
+      "img": "island.jpg",
+      "link": "https://drive.google.com/file/d/1IhcMs6Gunu6HjcQiUgBIl-VOBe_BIMgf/view?usp=sharing",
+      "media": "Read Speech",
+      "title": "Lord of the Flies",
+      "cap": "2013 Original Oratory",
+      "desc": "Covers the loss of inhibition in society, in Youtube comments, and on the playground. Given at the 2013 NSDA Middle School National Finals. Coached by Scott Wheeler."
+    },
+    {
+      "img": "gates.png",
+      "link": "https://drive.google.com/file/d/1EZJFBXOptCfnFOyop5hPrxaMVaW3c1c5/view?usp=sharing",
+      "media": "Read Speech",
+      "title": "Smart Guys Finish Last",
+      "cap": "2012 Original Oratory",
+      "desc": "An original oratory from middle school about society's aversion to intellectualism. Endless thanks to my speech & debate coach, Scott Wheeler."
     }
   ]
 }
