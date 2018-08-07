@@ -1,5 +1,6 @@
 html, body {
-  background-image: linear-gradient(to bottom, $white, $light-yellow);
+  /*background-image: linear-gradient(to bottom, $white, $light-yellow);*/
+  background-color: $white;
   color: $black;
   display: block;
   font: {

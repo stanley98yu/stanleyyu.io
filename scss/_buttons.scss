@@ -12,9 +12,8 @@
   }
   letter-spacing: .05em;
   padding: 8px 22px;
-  text-decoration: none;
   text-transform: uppercase;
-  transition: 0.1s background-color linear, .1s color linear;
+  transition: 0.1s linear;
 
   &:hover {
     background-color: $dark-blue;

@@ -9,6 +9,8 @@ header {
 }
 
 footer {
+  padding-bottom: 15px;
+
   .links {
     display: flex;
     justify-content: space-between;
@@ -19,11 +21,12 @@ footer {
 }
 
 .row {
+  overflow: hidden;
+  padding: 20px 0;
   width: 100%;
 
   .vis {
     float: left;
-    height: auto;
     padding-right: 17px;
     width: 50%;
   }
@@ -36,14 +39,8 @@ footer {
 
   .learn {
     float: left;
-    line-height: 2;
     padding-left: 17px;
-    padding-top: 17px;
-    width: 50%;
-  }
-
-  &::before, &::after {
-    display: table;
+    padding-top: 25px;
   }
 }
 
