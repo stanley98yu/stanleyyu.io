@@ -7,6 +7,7 @@ params:
   author: "Stanley Yu"
   github_username: "stanley98yu"
   twitter_handle: "@stanley98yu"
+  google_analytics_id: "UA-123576548-1"
   domain: "stanleyyu.io"
   root: "https://stanleyyu.io"
 
