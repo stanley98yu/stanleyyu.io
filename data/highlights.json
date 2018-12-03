@@ -1,12 +1,6 @@
 {
   "events": [
     {
-      "type": "fun",
-      "date": "July 2018",
-      "act": "Attended ",
-      "em": "Google Next 2018"
-    },
-    {
       "type": "work",
       "date": "Summer 2018",
       "act": "Worked on NLP research at ",
@@ -23,6 +17,12 @@
       "date": "August 2017",
       "act": "Enrolled at ",
       "em": "Columbia"
+    },
+    {
+      "type": "work",
+      "date": "Summer 2017",
+      "act": "Worked as a research consultant at ",
+      "em": "NASA"
     },
     {
       "type": "work",
