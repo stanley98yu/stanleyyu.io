@@ -1,17 +1,14 @@
 {
   "name": "stanleyyu.io",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
   "license": "MIT",
   "scripts": {},
-  "dependencies": {
-    "lodash": "^4.17.11",
-    "merge": "^1.2.1"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "del": "^3.0.0",
-    "gulp": "^4.0.0",
-    "gulp-cli": "^2.0.1",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
     "gulp-sass": "^4.0.2",
     "gulp-sass-lint": "^1.4.0"
   },
