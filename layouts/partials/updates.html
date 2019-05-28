@@ -1,8 +1,8 @@
-{{ with .Site.Data.highlights }}
-  <ul class="hdn-cntent">
-    {{ range .events }}
+{{ with .Site.Data.updates }}
+  <ul class="color-list">
+    {{ range .bullets }}
     <li class="{{ .type }}">
-      <div class="date">{{ .date }}</div>
+      <div class="category">{{ .type }}</div>
       <div class="event"><div>{{ .act }}<em>{{ .em }}</em></div></div>
     </li>
     {{ end }}

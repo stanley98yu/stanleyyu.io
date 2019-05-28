@@ -1,20 +1,20 @@
-{{ define "content" }}
+{{ define "main" }}
 <div class="collection active">
-  <h3>/ <a class="exp">About</a></h3>
-  {{ .Content }}
-  {{ partial "highlights.html" . }}
+    <h3>/ <a class="exp">About</a></h3>
+    {{ .Content }}
+    {{ partial "updates.html" . }}
 </div>
 <div class="bg-img"></div>
 <div class="collection">
-  <h3>/ <a href="/projects">Projects</a></h3>
-  <p>A collection of my personal projects and explorations.</p>
-  <!--<div class="grid">
-    <div class="box">
-    </div>
-  </div>-->
+    <h3>/ <a href="/writing">Writing</a></h3>
+    <p>Placeholder for posts and content.</p>
 </div>
 <div class="collection">
-  <h3>/ <a href="/talks">Talks</a></h3>
-  <p>Talks, speeches, and presentations I've given on school and society.</p>
+    <h3>/ <a href="/projects">Projects</a></h3>
+    <p>A collection of my personal projects and explorations.</p>
+    <!--<div class="grid">
+      <div class="box">
+      </div>
+    </div>-->
 </div>
 {{ end }}

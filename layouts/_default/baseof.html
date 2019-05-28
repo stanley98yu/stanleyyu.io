@@ -7,9 +7,6 @@
   <meta name="description" content="{{ .Site.Params.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <!-- Pinterest -->
-  <meta name="p:domain_verify" content="7152bd3df64797cae6b866118c2fa16f"/>
-
   <!-- Icons -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="icon" type="image/png" href="/img/favicon-1024.png">
@@ -29,11 +26,9 @@
   </script>
 </head>
 <body>
-  <div class="container">
-    {{ partial "header.html" . }}
-    {{ block "content" . }}
-    {{ end }}
-    {{ partial "footer.html" . }}
-  </div>
+  {{ partial "header.html" . }}
+  {{ block "main" . }}
+  {{ end }}
+  {{ partial "footer.html" . }}
 </body>
 </html>

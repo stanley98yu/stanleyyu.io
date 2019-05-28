@@ -1,0 +1,20 @@
+{
+  "bullets": [
+    {
+      "type": "work",
+      "act": "I'm interning at",
+      "em": "Butterfly Network",
+      "act2": ", a healthcare startup developing a low-cost, portable ultrasound scanner that connects to a cloud platform to allow third-party experts to give second opinions."
+    },
+    {
+        "type": "school",
+        "act": "Enrolled at ",
+        "em": "Columbia"
+    },
+    {
+      "type": "fun",
+      "act": "Traveled to ",
+      "em": "Tel Aviv, Israel"
+    }
+  ]
+}
