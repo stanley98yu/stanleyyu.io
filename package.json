@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+      "serve": "hugo server",
+      "gulp": "gulp serve",
+      "clean": "gulp clean"
+  },
   "dependencies": {},
   "devDependencies": {
     "del": "^4.1.1",
+    "eslint": ">=4.8.2",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.2.0",
     "gulp-sass": "^4.0.2",
