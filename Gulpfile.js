@@ -10,9 +10,9 @@ var sassLint = require('gulp-sass-lint');
    ============ */
 
 gulp.task('scss:lint', function (done) {
-  return gulp.src('scss/**/*.s+(a|c)ss')
+  return gulp.src('assets/**/*.s+(a|c)ss')
     .pipe(sassLint({
-      files: { ignore: 'scss/**/*.min.s+(a|c)ss' },
+      files: { ignore: 'assets/**/*.min.s+(a|c)ss' },
       configFile: './sass-lint.yml',
     }))
     .pipe(sassLint.format())
@@ -21,7 +21,7 @@ gulp.task('scss:lint', function (done) {
 });
 
 gulp.task('scss:build', function (done) {
-  gulp.src('./scss/style.scss')
+  gulp.src('assets/style.scss')
     .pipe(sass({
       outputStyle: 'compressed',
     }))
@@ -40,7 +40,7 @@ gulp.task('clean', function (cb) {
 });
 
 gulp.task('serve', gulp.series('scss', function (done) {
-  gulp.watch('scss/**/*.scss', gulp.series('scss'));
+  gulp.watch('assets/**/*.scss', gulp.series('scss'));
   done();
 }));
 

@@ -3,7 +3,7 @@
     {{ range .bullets }}
     <li class="{{ .type }}">
       <div class="category">{{ .type }}</div>
-      <div class="event"><div>{{ .act }}<em>{{ .em }}</em></div></div>
+      <div class="event"><div>{{ .pre }}<em>{{ .em }}</em>{{ .post }}</div></div>
     </li>
     {{ end }}
   </ul>

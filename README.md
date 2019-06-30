@@ -12,17 +12,16 @@
 
 ## Development
 
-Install [npm][node] and [Hugo][hugo]. Then, run:
+Install [yarn][yarn], [npm][node], and [Hugo][hugo]. Then, run:
 
 ```bash
-npm install                                 # **Only once.**
-hugo                                        # Build site. Run `hugo server` to serve on localhost:1313.
-gulp serve                                  # All-in-one!
-gulp clean                                  # Delete generated files.
+yarn                                        # Install dependencies
+yarn serve                                  # Serves site build on localhost:1313.
+yarn gulp                                   # Gulp serves static file build.
+yarn clean                                  # Delete generated files.
 ```
 
 Note: To deploy to the VPS, run `git push prod master`.
-
 ## Structure
 
 ```
@@ -33,7 +32,7 @@ Note: To deploy to the VPS, run `git push prod master`.
 │ ├── img/                             # Images
 │ ├── js/                              # Javascript
 │ └── css/                             # CSS compiled from SCSS
-├── scss/                              # Pre-compilation stylesheets
+├── assets/                            # Pre-compilation stylesheets
 ├── site/                              # **GENERATED** Hugo builds the site here
 ├── config.yaml                        # Metadata associated with the site
 ├── package.json                       # Dependencies
@@ -47,3 +46,4 @@ Note: To deploy to the VPS, run `git push prod master`.
 [node]: https://nodejs.org/en/download/
 [sass]: https://sass-lang.com/
 [sass-lint]: https://github.com/sasstools/sass-lint
+[yarn]: https://yarnpkg.com/en/docs/install
