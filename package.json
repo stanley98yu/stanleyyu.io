@@ -4,8 +4,8 @@
   "description": "",
   "license": "MIT",
   "scripts": {
-      "serve": "hugo server",
-      "gulp": "gulp serve",
+      "serve": "nohup hugo server & nohup gulp serve &",
+      "build": "hugo && gulp scss",
       "clean": "gulp clean"
   },
   "dependencies": {},

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>{{ .Site.Params.title }}</title>
   <meta charset="utf-8">
@@ -9,7 +10,7 @@
 
   <!-- Icons -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <link rel="icon" type="image/png" href="/img/favicon-1024.png">
+  <link rel="icon" type="image/png" href="/img/favicon.png">
 
   <link href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/css/style.css">
@@ -25,10 +26,12 @@
     gtag('config', '{{ .Site.Params.google_analytics_id }}');
   </script>
 </head>
+
 <body>
   {{ partial "header.html" . }}
   {{ block "main" . }}
   {{ end }}
   {{ partial "footer.html" . }}
 </body>
+
 </html>

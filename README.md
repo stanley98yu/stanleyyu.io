@@ -12,12 +12,12 @@
 
 ## Development
 
-Install [yarn][yarn], [npm][node], and [Hugo][hugo]. Then, run:
+Install [yarn][yarn], [Hugo][hugo], and [node][node]. Then, run:
 
 ```bash
 yarn                                        # Install dependencies
-yarn serve                                  # Serves site build on localhost:1313.
-yarn gulp                                   # Gulp serves static file build.
+yarn serve                                  # Serve site on localhost:1313 in background. Use kill <pid> to stop.
+yarn build                                  # Build site.
 yarn clean                                  # Delete generated files.
 ```
 
