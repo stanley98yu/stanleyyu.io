@@ -4,9 +4,9 @@
   "description": "",
   "license": "MIT",
   "scripts": {
-      "serve": "nohup hugo server & nohup gulp serve &",
-      "build": "hugo && gulp scss",
-      "clean": "gulp clean"
+    "serve": "nohup hugo server & nohup gulp serve &",
+    "build": "hugo && gulp scss",
+    "clean": "gulp clean"
   },
   "dependencies": {},
   "devDependencies": {
@@ -15,7 +15,8 @@
     "gulp": "^4.0.2",
     "gulp-cli": "^2.2.0",
     "gulp-sass": "^4.0.2",
-    "gulp-sass-lint": "^1.4.0"
+    "gulp-sass-lint": "^1.4.0",
+    "particles.js": "^2.0.0"
   },
   "repository": {
     "type": "git",
