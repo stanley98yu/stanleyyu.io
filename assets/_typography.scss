@@ -1,5 +1,5 @@
-$bold: 700;
-$reg: 550;
+$bold: 600;
+$reg: 500;
 $light: 400;
 
 $monospace: 'Inconsolata', monospace;
@@ -8,7 +8,7 @@ $sans: 'Montserrat', Helvetica, Arial, sans-serif;
 h1 {
   font: {
     family: $sans;
-    size: 2.75rem;
+    size: 3rem;
     weight: $bold;
   }
   line-height: 1.25;
@@ -20,7 +20,7 @@ h2 {
     size: 1.25rem;
     weight: $reg;
   }
-  margin-bottom: 0.25rem;
+  margin-bottom: .25rem;
 }
 
 h3 {
@@ -29,7 +29,7 @@ h3 {
     size: 1.25rem;
     weight: $bold;
   }
-  margin: 0.25rem 0;
+  margin: .5rem 0;
 }
 
 h4 {
@@ -37,7 +37,7 @@ h4 {
     family: $monospace;
     size: 1.25rem;
   }
-  margin-bottom: 0.9rem;
+  margin-bottom: .9rem;
 }
 
 h5 {

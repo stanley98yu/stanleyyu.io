@@ -5,7 +5,7 @@
 }
 
 header {
-  padding: 1rem 0;
+  padding: 1.5rem 0;
   text-align: left;
 }
 
@@ -15,7 +15,7 @@ footer {
   .links {
     display: flex;
     justify-content: space-between;
-    margin-top: 0.8em;
+    margin-top: .8em;
     width: 20%;
     a { border-bottom: 2px solid transparent; }
   }
@@ -24,7 +24,7 @@ footer {
 .collection li {
   display: flex;
   justify-content: flex-start;
-  margin: 0.75em 0;
+  margin: .75em 0;
 
   .category {
     margin-left: 20px;
@@ -33,7 +33,7 @@ footer {
     &::before {
       content: '\2207';
       display: inline-block;
-      font-size: 0.8em;
+      font-size: .8em;
       height: 1em;
       margin-right: 2em;
     }
