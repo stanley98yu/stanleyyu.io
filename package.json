@@ -10,13 +10,12 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "del": "^4.1.1",
-    "eslint": ">=4.8.2",
+    "del": "^5.0.0",
+    "eslint": "^6.1.0",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.2.0",
     "gulp-sass": "^4.0.2",
-    "gulp-sass-lint": "^1.4.0",
-    "particles.js": "^2.0.0"
+    "gulp-sass-lint": "^1.4.0"
   },
   "repository": {
     "type": "git",
