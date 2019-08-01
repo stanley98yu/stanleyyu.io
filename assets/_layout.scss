@@ -80,15 +80,7 @@ footer {
   }
 }
 
-.grid {
-  align-items: stretch;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-
-  .box {
-    margin: 0;
-    padding: 1rem;
-    width: 50%;
-  }
+.cards {
+  background-color: $black;
+  height: 200px;
 }

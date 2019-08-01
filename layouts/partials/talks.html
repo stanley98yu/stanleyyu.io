@@ -1,14 +1,14 @@
 {{ range .Site.Data.content.talks }}
-  <div class="row collection">
-    <div class="vis">
-      <img src="/img/talks/{{ .img }}">
-    </div>
-    <div class="desc">
-      <h4>{{ .title }}: <span class="cap">{{ .cap }}</span></h4>
-      <p>{{ .desc }}</p>
-    </div>
-    <div class="learn">
-      <a class="btn" href="{{ .link }}">{{ .media }} ></a>
-    </div>
+<div class="row collection">
+  <div class="vis">
+    <img src="/img/talks/{{ .img }}">
   </div>
+  <div class="desc">
+    <h4>{{ .title }}: <span class="cap">{{ .cap }}</span></h4>
+    <p>{{ .desc }}</p>
+  </div>
+  <div class="learn">
+    <a class="btn" href="{{ .link }}">{{ .media }} ></a>
+  </div>
+</div>
 {{ end }}
