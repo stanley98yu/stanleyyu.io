@@ -5,5 +5,14 @@ slug:
 layout: default
 ---
 
-Hi, I'm Stanley. I study computer science at <a href="https://www.columbia.edu/">Columbia</a>. In the past, I was a research consultant and special needs volunteer. I enjoy spending my free time swimming and playing <a href="https://www.starcraft2.com">Starcraft II</a>. If you're in the New York area and want to chat about anything, feel free to <a href="mailto:stanley98yu@gmail.com">reach out</a>. Here's what I'm up to:
+Hi, I'm Stanley. I am a student at [Columbia][columbia] studying computer science. In the past, I've worked on software engineering at [Butterfly Network][bfly] and research at [Cornell Tech][cornell] and [NASA][nasa]. If you're in the New York area and want to chat about anything, feel free to [reach out][email].
 
+* I enjoy board games & video games (my favorites being Minecraft, SSBU, and Guild Wars 2).
+
+* I'm from Arcadia, California, where I met my adventure buddy in high school.
+
+[bfly]: https://butterflynetwork.com/
+[columbia]: https://www.columbia.edu/
+[cornell]: https://tech.cornell.edu/
+[email]: mailto:stanley98yu@gmail.com
+[nasa]: https://www.nasa.gov/

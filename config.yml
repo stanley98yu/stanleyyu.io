@@ -3,7 +3,6 @@ languageCode: en-us
 
 params:
   title: "Stanley Yu"
-  description: "Stanley Yu is a software developer and researcher at Columbia, working on machine learning, distributed systems, and algorithms. He is currently working as a software engineering intern at Butterfly Network."
   author: "Stanley Yu"
   github_username: "stanley98yu"
   twitter_handle: "@stanley98yu"

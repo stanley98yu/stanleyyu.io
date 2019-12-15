@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "serve": "nohup hugo server & nohup gulp serve &",
-    "build": "hugo && gulp scss",
+    "build": "gulp scss && hugo",
     "clean": "gulp clean"
   },
   "dependencies": {},
