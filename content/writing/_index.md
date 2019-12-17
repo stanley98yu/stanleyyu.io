@@ -1,5 +1,5 @@
 ---
-title: "Writing"
-description: ""
-slug: "writing"
+title: Writing
+description:
+slug: writing
 ---

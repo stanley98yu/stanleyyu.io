@@ -5,7 +5,7 @@ slug:
 layout: default
 ---
 
-Hi, I'm Stanley. I am a student at [Columbia][columbia] studying computer science. In the past, I've worked on software engineering at [Butterfly Network][bfly] and research at [Cornell Tech][cornell] and [NASA][nasa]. If you're in the New York area and want to chat about anything, feel free to [reach out][email].
+Hi, I'm Stanley. I'm a student at [Columbia][columbia] studying computer science. In the past, I've worked on software engineering at [Butterfly Network][bfly] and research at [Cornell Tech][cornell] and [NASA][nasa]. If you're in the New York area and want to chat about anything, feel free to [reach out][email].
 
 * I enjoy board games & video games (my favorites being Minecraft, SSBU, and Guild Wars 2).
 

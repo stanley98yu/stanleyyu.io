@@ -1,5 +1,5 @@
 ---
-title: "Projects"
-description: ""
-slug: "projects"
+title: Projects
+description:
+slug: projects
 ---

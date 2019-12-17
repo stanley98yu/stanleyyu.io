@@ -8,7 +8,9 @@
     "build": "gulp scss && hugo",
     "clean": "gulp clean"
   },
-  "dependencies": {},
+  "dependencies": {
+    "typed.js": "^2.0.11"
+  },
   "devDependencies": {
     "del": "^5.0.0",
     "eslint": "^6.1.0",

@@ -1,6 +1,6 @@
 ---
-title: "Talks"
-description: ""
-slug: "talks"
+title: Talks
+description:
+slug: talks
 layout: default
 ---

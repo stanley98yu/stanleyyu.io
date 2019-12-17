@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Site.Language.Lang }}">
 
 <head>
   <title>{{ .Site.Params.title }}</title>
@@ -13,9 +13,11 @@
     integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="icon" type="image/png" href="/img/favicon.png">
 
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat:500,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/css/style.css">
-  <script type='text/javascript' src='/js/expand.js'></script>
+
+  <script type='text/javascript' src='/js/effects.js'></script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.google_analytics_id }}"></script>
@@ -29,10 +31,9 @@
 </head>
 
 <body>
-  {{ partial "header.html" . }}
-  {{ block "main" . }}
-  {{ end }}
-  {{ partial "footer.html" . }}
+  {{ partial "header" . }}
+  {{ template "main" . }}
+  {{ partial "footer" . }}
 </body>
 
 </html>
