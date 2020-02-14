@@ -36,7 +36,7 @@ gulp.task('scss', gulp.series('scss:lint', 'scss:build'));
    ============== */
 
 gulp.task('clean', function (cb) {
-  return del(['./site/', './resources/', `nohup.out`], cb);
+  return del(['./resources/', `nohup.out`], cb);
 });
 
 gulp.task('serve', gulp.series('scss', function (done) {
