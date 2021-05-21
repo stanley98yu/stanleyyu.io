@@ -1,6 +1,7 @@
-body {
+html, body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    line-height: 1.25;
     margin: 20px;
 }
 
@@ -14,4 +15,25 @@ body {
     body {
         margin-left: 250px;
     }
+}
+
+a {
+    color: #1c99b5;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+a:hover {
+    border-bottom: 1.5px solid #1c99b5;
+}
+
+span.caption {
+    color: #7c7c7c;
+    font-size: 12px;
+}
+
+span.date {
+    color: #7c7c7c;
+    float: right;
 }
