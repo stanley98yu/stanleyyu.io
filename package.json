@@ -1,0 +1,23 @@
+{
+  "name": "stanleyyu.io",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanley98yu/stanleyyu.io.git"
+  },
+  "author": "Stanley Yu",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/stanley98yu/stanleyyu.io/issues"
+  },
+  "homepage": "https://github.com/stanley98yu/stanleyyu.io#readme",
+  "devDependencies": {
+    "lighthouse": "^8.0.0",
+    "ws": ">=5.2.3"
+  }
+}
