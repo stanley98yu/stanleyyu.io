@@ -1,2 +1,2 @@
 #!/bin/bash
-gsutil rsync -r src gs://${BUCKET_NAME}
+gsutil rsync -d -r src gs://${BUCKET_NAME}

@@ -8,7 +8,7 @@ Usage
 
 1. Install dependencies by running `npm install`.
 
-2. Set up environment variables.
+2. Set up environment variables using `$BUCKET_NAME`.
 
 3. Update your bucket by running `update-bucket.sh`.
 
