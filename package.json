@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/stanley98yu/stanleyyu.io#readme",
   "devDependencies": {
-    "lighthouse": "^8.0.0",
+    "lighthouse": "^10.0.0",
     "ws": ">=5.2.3"
   }
 }
